@@ -63,3 +63,5 @@ You can add your own SVG icons in the same manner.
 # Copyright & License
 
 Copyright (c) 2013-2025 Ghost Foundation - Released under the [MIT license](LICENSE).
+
+# Now dev by Recoil
