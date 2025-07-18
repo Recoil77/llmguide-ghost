@@ -1,0 +1,19 @@
+collections:
+  /:                       
+    permalink: /{slug}/
+    template: index
+    filter: type:post+tag:-hash-guides+tag:-hash-resources
+
+  /guides/:
+    permalink: /guides/{slug}/
+    filter: tag:hash-guides+type:post
+    template: guides
+
+  /resources/:
+    permalink: /resources/{slug}/
+    filter: tag:hash-resources+type:post
+    template: resources
+
+taxonomies:
+  tag: /tag/{slug}/
+  author: /author/{slug}/
