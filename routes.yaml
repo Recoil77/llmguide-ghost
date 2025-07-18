@@ -1,8 +1,8 @@
 collections:
   /:                       
     permalink: /{slug}/
-    template: index
     filter: type:post+tag:-hash-guides+tag:-hash-resources
+    template: index
 
   /guides/:
     permalink: /guides/{slug}/
